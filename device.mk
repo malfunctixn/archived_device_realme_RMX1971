@@ -140,10 +140,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.3-service.clearkey
 
-# GalaxyParts
-PRODUCT_PACKAGES += \
-    GalaxyParts
-
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -314,7 +310,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.class_main.sh \
-    init.GalaxyParts.sh \
     init.oppo.fingerprints.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
@@ -327,7 +322,6 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
     init.target.rc \
-    init.GalaxyParts.rc \
     ueventd.qcom.rc
 
 # RenderScript HAL
