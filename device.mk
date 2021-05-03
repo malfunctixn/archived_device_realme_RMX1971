@@ -140,9 +140,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.3-service.clearkey
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 # Enable iorapd perfetto tracing for app starts
 PRODUCT_PROPERTY_OVERRIDES += \
     iorapd.perfetto.enable=true
