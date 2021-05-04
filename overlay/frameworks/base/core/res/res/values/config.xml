@@ -310,6 +310,9 @@
         <item>"/system/framework/arm64/boot-UxPerformance.oat"</item>
     </string-array>
 
+    <!--Override the default maximum visible status bar icons -->
+    <integer name="config_maxVisibleStatusIconContainer">8</integer>
+
     <!-- True if the firmware supports connected MAC randomization -->
     <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
 
