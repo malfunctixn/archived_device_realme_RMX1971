@@ -23,13 +23,19 @@
     <integer name="config_fingerprintSensorLocation">0</integer>
 
     <!-- Battery Health -->
-    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
-    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
-    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_full</string>
+    <string name="config_batChargeCycle">/sys/class/power_supply/battery/cycle_count</string>
+    <string name="config_batDesCap">/sys/class/power_supply/battery/charge_full_design</string>
+    <string name="config_batCurCap">/sys/class/power_supply/battery/charge_full</string>
     <bool name="config_supportBatteryHealth">true</bool>
+
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
     <!-- Smart Charging -->
     <bool name="config_supportSmartCharging">true</bool>
+    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/mmi_charging_enable</string>
+    <string name="config_SmartChargingSuspendValue" translatable="false">1</string>
+    <string name="config_SmartChargingResumeValue" translatable="false">0</string>
 
     <!-- Whether SELinux status should be shown or not. -->
     <bool name="config_show_selinux_status">true</bool>
