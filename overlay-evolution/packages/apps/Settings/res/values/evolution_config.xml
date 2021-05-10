@@ -27,7 +27,7 @@
     <string name="config_batCurCap">/sys/class/power_supply/battery/charge_counter</string>
 
     <!-- Smart charging -->
-    <bool name="config_supportSmartCharging">true</bool>
+    <bool name="config_supportSmartCharging">flase</bool>
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/mmi_charging_enable</string>
     <string name="config_SmartChargingSuspendValue" translatable="false">1</string>
     <string name="config_SmartChargingResumeValue" translatable="false">0</string>
