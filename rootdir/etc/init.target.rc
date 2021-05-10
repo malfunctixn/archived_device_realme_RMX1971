@@ -496,6 +496,3 @@ on boot
 	chown system system /proc/touchpanel/gesture_enable	
     chmod 0660 /proc/touchpanel/gesture_enable
 
-# Smart Charging
-  chmod 0660 /sys/class/power_supply/battery/step_charging_enabled
-  chown system system /sys/class/power_supply/battery/step_charging_enabled
