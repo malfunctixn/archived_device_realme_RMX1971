@@ -496,3 +496,6 @@ on boot
 	chown system system /proc/touchpanel/gesture_enable	
     chmod 0660 /proc/touchpanel/gesture_enable
 
+# Smart charging
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
