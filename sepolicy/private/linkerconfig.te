@@ -1,2 +1,0 @@
-#============= linkerconfig ==============
-allow linkerconfig self:capability kill;
